@@ -1,0 +1,17 @@
+List 
+
+ - SOLID
+ - YAGNI
+ - VIPER 
+
+ --------
+
+ Imp OOPS -> (related to design principles)
+
+ -> Polymorphism & Abstraction (Interface)
+     \
+      Compiletime/runtime
+
+
+ -> Sealed Classes | Unions
+ 

@@ -1,0 +1,47 @@
+Tips :
+  1) depend on abstraction instead of concrete implementation
+  2) Outer Level (Low Level) Depends on Inner Layers (High Level)  - Onion
+
+  3) Models are entities with some additional functionality added on top
+
+
+
+  Approach -> 1) Entity
+              2) Model
+
+
+* Clean Architecture :
+  -------
+   TDD 
+
+   -> High-Level Creates a Contract
+   -> Low-Level fulfills the Contract
+   -> UseCases (Business Logic) utilise the Contracts, independently
+
+
+   Fixture :-
+     "A test fixture is something used to consistently test some item, device, or piece of software."
+
+   Repository :-
+      decides if to propogate exception or create Either class
+      takes model & gives entity
+
+   Data Source Class :- 
+      Local & Remote 
+         throw exceptions 
+         deal with models
+         
+      needs some abstract template defining the data Source
+
+   3rd Party Lib 
+      it's beneficial to create even seemingly "useless" classes 
+      just to hide 3rd party code under a stable interface
+
+
+   ---
+   TIP : Remote Data Source -
+   ---
+
+    Getting the API to respond with an application/json header is possible in two ways:
+      1) Append a query parameter to the URL, making it look like this: http://numbersapi.com/42?json
+      2) Send a Content-Type: application/json header along with the GET request.

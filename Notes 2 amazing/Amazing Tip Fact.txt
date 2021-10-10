@@ -1,0 +1,9 @@
+=> no 'router.g.dart' from code gen packages. means
+   That's because the generated classes don't use the any members of our manually written class, 
+   hence, the generated file is not a "part" of the manually written file.
+
+
+Q)* > If your child has dimension higher than your parent height then Overflow !!!
+   - How to avoid ??
+     -> Hack -> Wrap your child widget under `Wrap()` widget
+

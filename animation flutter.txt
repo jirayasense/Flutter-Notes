@@ -1,0 +1,23 @@
+1) Implicit Animation
+2) Explicit Animation
+
+* TweenAnimationBuilder :
+  -------------------
+
+  - create custom Implicit Animation
+  -> start & end points
+
+* Hero animation :
+  ------------
+  - from 1 screen to another
+
+Explicit Animation - uses animation controller
+
+
+* AnimatedOpacity
+  AnimatedSize
+  AnimatedPositioned
+  AnimatedContainer
+  AnimatedAlign
+  AnimatedBuilder
+

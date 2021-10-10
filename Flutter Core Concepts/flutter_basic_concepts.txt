@@ -1,0 +1,71 @@
+Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---decoding-and-encoding-json-utf-8-and-more
+
+* InheritedWidget :  (Scoped Access)
+  -----------
+   -> Immutable
+
+      Many InheritedWidget will remain unchanged during whole lifecycle of app.
+   
+   1) access 
+        // Go up the tree starting from build context & look for Type T of InheritedWidget type
+       context.inheritFromWidgetOfExactType(T) 
+
+   2)  notify 
+       bool updateShouldNotify() 
+
+
+* Json in Dart :
+  ---------
+   -> Only objects of type int, double, String, bool, null, List, or Map (with string keys) are directly encodable into JSON. 
+   
+   => List and Map objects are encoded recursively.
+
+
+* Sliver :
+  -----
+   -> Portion of Scrollable Area | Custom Scrolling Effect
+
+   Normal Widgets renders in a Box i.e RenderBox (i.e BoxConstraints)
+    \
+     Renderer uses those constraints & produce size for rendering widget
+
+  Render Sliver Protocal
+  --------
+   -> Sliver Constraints -> Renderer -> Sliver Geometry
+      
+      ListView already uses  Sliver under the hood.
+
+  3 Types of Sliver :
+   -------
+    Sliver - To - Sliver  : 
+        Sliver on Outside & Sliver on Inside
+        Eg SliverPadding
+
+    Sliver - To - Box    : 
+        Sliver on Outside & BoxRenderer on Inside
+        Eg SliverAppBar 
+
+    Sliver - To - Many Sliver :
+        Sliver on Outside & Many on Inside
+        Eg SliverList
+
+    Sliver Creation req. 2 Classes :- 
+        
+        1. Render Class : performs rendering & layout
+        2. Widget Class : Makes use of Render class to Widget tree
+
+      => Paint Coordinates is relative to the Sliver's Local coordinates, not the scroll view 
+      => Scroll Offset is the amount of logical pixels the current sliver box is scrolled out of view
+
+
+    Paint Position is seperate from the Constraints Position :
+      -> This means that we can paint widget at differently that actual located in the list
+
+  NOTE -> Slivers has to be used in a Custom Scroll View
+
+
+* You can provide Your Object In different part differently using :
+  
+   ScopedProvider(), ProviderScope()
+
+   use override param avail in ProviderScope to change behaviour in diff part of apps.

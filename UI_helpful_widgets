@@ -1,0 +1,30 @@
+BoxDecoration -> BoxShadow()    
+
+Transfor.translate()
+
+AnimatedSwitcher()
+
+Opacity, Visibility, Offstage  // Hide the widget
+
+AbsorbPointer, IgnorePointer   // To disable subtree or Widget
+
+BoxPainter()
+Canvas()
+
+RichText()
+PageView()
+
+RotatedBox(), Transform()
+
+Material 
+
+LayerLink(), CompositeTransformTarget(), CompositeTransformFollower()
+FocusNode()
+
+BackdropFilter()   // manipulate background of current child
+ListBody()
+
+ConstrainedBox(), LayoutBuilder(), FractionallySizedBox()
+
+SvgPicture.asset(), Image.asset(), AspectRatio()
+

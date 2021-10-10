@@ -1,0 +1,23 @@
+* Async vs Isolates :
+  ---------
+   -> Async doesnt make switching of thread, i.e code still run on same thread but concurrently
+   -> not seperate thread 
+   -> just jump between diff part of program
+
+   If its heavy work then go for parallelism : 2 program in parallel 
+     
+   Isolates :
+   -----
+   -> parallelism in Flutter(dart)
+   -> on different thread
+   -> heavy processing while also smooth UI for user on main thread
+   -> Run in parallel
+
+
+* yield and yield*
+  ----------
+   -> are often use to make generators or recursive call 
+
+* factories redirection :
+  ----------
+   use = with factory constructor for redirection

@@ -1,0 +1,7 @@
+[https://github.com/leisim/auto_size_text/issues/30]
+Calculating the intrinsic dimensions would require running the layout callback speculatively, which
+
+ -> Using AutoSizeText() inside the Column under the AlertDialog will give error
+    related to dimension 
+
+    Hack -> use Text() 

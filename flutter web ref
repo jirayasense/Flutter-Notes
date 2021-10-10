@@ -1,0 +1,39 @@
+portfolio
+https://medium.com/flutter-community/flutter-for-web-building-a-portfolio-website-3e9865710efe
+
+https://adityag.me/#/  
+
+
+state management - provider
+
+https://flutterbyexample.com/lesson/proxy-provider
+
+
+PageView 
+https://thegrowingdeveloper.org/coding-blog/pageview-and-pagecontroller-flutter-tutorial-for-beginners
+
+stream-provider
+https://medium.com/flutter-community/flutter-state-management-with-provider-notifylisteners-x-streamprovider-part-2-84604eac1696
+
+Keys
+
+https://medium.com/flutter/keys-what-are-they-good-for-13cb51742e7d
+
+
+Stateful Widget lifecycles
+
+https://flutterbyexample.com/lesson/stateful-widget-lifecycle
+
+
+To create model from json (online) :- app.quicktype.io
+
+
+Pass Gesture Detector down the stack
+https://stackoverflow.com/questions/66613514/flutter-pass-gesture-detection-details-to-lower-stack-widgets
+https://stackoverflow.com/questions/57466767/how-to-make-a-gesturedetector-capture-taps-inside-a-stack
+
+
+* To get responsive sizes of different devices :
+  ------
+
+  statCounter GlobalStats  //Keyword

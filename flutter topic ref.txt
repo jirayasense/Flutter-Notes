@@ -1,0 +1,16 @@
+https://hmh.engineering/will-flutter-and-dart-be-the-next-big-thing-in-application-development-e8e218599c89
+
+
+https://walkingtree.tech/why-flutter-is-the-next-big-thing-in-app-development/
+
+
+* How Flutter renders Widget ??
+-> https://www.youtube.com/watch?v=996ZgFRENMs
+
+   Widget -> Element -> RenderObject 
+
+   canUpdate(), updateRenderObject(), createRenderObject()
+
+   Leaf node
+
+   [check runtimetype & key]
