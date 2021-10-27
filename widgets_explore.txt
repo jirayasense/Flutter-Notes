@@ -77,6 +77,8 @@ auto_sized_styled_text
 
 open_file   // open file stored at path inside native application
 file_picker
+octo_image   // equi to coil in native
+paginable    // pagination with more functionality
 
 flutter_xlider  (Custom Slider)
 readmore
@@ -92,12 +94,15 @@ scroll_navigation
 sn_progress_dialog
 drawer_swipe
 swipe_deck
+plural_selectable    // checlist 
+blurry_modal_progress_hud  // loading progress blurr page
 
 flutter_form_builder
 flutter_countdown_timer
 flutter_local_notifications
 flutter_collapsing_toolbar     [AppBar Collapsing]
 flutter_font_picker
+flutter_bouncable     // bouncable tap effect
 
 flutter_gadget            [state mgmt + service location]
 

@@ -12,6 +12,8 @@ reference :
 
   5) GetX
 
+  7) Lifting State UP : (Provider i.e InheritedWidget)
+
 
 ----------
 Others 

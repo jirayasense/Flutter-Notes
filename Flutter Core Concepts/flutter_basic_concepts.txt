@@ -69,3 +69,43 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
    ScopedProvider(), ProviderScope()
 
    use override param avail in ProviderScope to change behaviour in diff part of apps.
+
+
+* GestureDetector :
+  -----
+   -> Hit behaviour : Opaque, Translucent
+
+* IndexedStack :  
+  -----
+  IndexedStack allows you to easily switch widgets in your app. 
+  It only shows one child widget at a time, 
+  but it preserves the state of all the children. 
+
+* Navigator 1.0 :
+  ------------
+
+  -> WidgetsApp :  
+
+    Most Flutter apps start with WidgetsApp as the root widget.
+    MaterialApp extends the WidgetsApp
+
+    WidgetsApp wraps many other common widgets that your app requires. 
+    Among these wrapped widgets are a top-level Navigator to manage the pages you push and pop.
+
+ => Navigator 1.0 doesn’t expose the route stack to developers
+     - This makes it difficult to handle complicated cases, 
+       like adding and removing a screen between pages.
+
+   Cons : 
+     Another disadvantage is that Navigator 1.0 does not update the web URL path.
+
+     - on Android devices, the Back button might not work with Navigator 1.0 
+       when you have nested navigators or when you add Flutter to your host Android app.
+
+* Navigator 2.0 :
+  -------------
+   - Exposing Page Stack 
+   - backward compatible
+   - Handling OS events (android back button)
+   - mannage nested navigators 
+   - manage navigation state

@@ -1,0 +1,12 @@
+
+Flutter maintains three trees in parallel: 
+the Widget, Element and RenderObject trees.
+
+Asynchronous code should always check if the mounted property is true before calling setstate(), 
+because the widget may no longer be part of the widget tree.
+
+The rule of thumb for dispose() is to check any properties 
+you define in your state and make sure you’ve disposed of them properly.
+
+By adding an inherited widget in your tree, you can reference the data from any of its descendants. 
+This is known as lifting state up.

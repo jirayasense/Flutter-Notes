@@ -1,0 +1,3 @@
+* Benefits of Null Safety :
+  ----
+   - We can avoid half of assert statement used with the constructor for Null-Safety

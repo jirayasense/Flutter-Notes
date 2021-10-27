@@ -7,3 +7,13 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
    - How to avoid ??
      -> Hack -> Wrap your child widget under `Wrap()` widget
 
+
+* ScaffoldMessenger :
+  -------
+   To show snack-bar persist among multiple screens,
+
+   The ScaffoldMessenger creates a scope in which all descendant Scaffolds register to receive SnackBars, 
+   which is how they persist across these transitions
+
+
+

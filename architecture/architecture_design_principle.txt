@@ -42,7 +42,7 @@ TIP : Use PageStorageKey() to keep intact ListView where it was last time.
         ------
          -> listen changes to service used by then Model
 
-
+  -> ViewModelProvider<T.withConsumer()
   -> ViewModelBuilder<T>. reactive
                           nonreactive
 
@@ -110,6 +110,9 @@ TIP : Use PageStorageKey() to keep intact ListView where it was last time.
       -> stacked_themes
          
          ThemeManager, ThemeService
+
+=> Inside ViewModel, You can use `setBusy()` to emit different busy states
+
 
   * Viper : 
     ----

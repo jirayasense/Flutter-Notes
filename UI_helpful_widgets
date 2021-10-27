@@ -28,3 +28,10 @@ ConstrainedBox(), LayoutBuilder(), FractionallySizedBox()
 
 SvgPicture.asset(), Image.asset(), AspectRatio()
 
+Link(), MouseRegion()
+
+IntrinsicHeight(), IntrinsicWidth()
+
+ExpansionTile(), PageStorage()
+
+TabPageSelector()

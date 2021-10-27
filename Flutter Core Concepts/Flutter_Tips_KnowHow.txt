@@ -6,3 +6,15 @@
 
 -------------
 
+* There are 4 types of Chips :
+   
+   InputChip
+   ChoiceChip
+   FilterChip 
+   ActionChip\
+
+=> Create manager objects to manage functions and state changes in one place.
+
+=> Most Flutter apps start with WidgetsApp as the root widget.
+
+

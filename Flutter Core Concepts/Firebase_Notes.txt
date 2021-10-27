@@ -1,0 +1,12 @@
+* Logged In or Logged Out :
+  ---------------
+   -> When you are logged out then currentUser() on firebaseAuth always returns null
+
+
+* Whenever user Logged In or Update some info :
+  -----------
+    Just Populate latest user info from firestore & store it in local variable
+
+    (ASA You signup, login ,update...) User info is ready ot be used inside application
+
+    Make this thing atomic
