@@ -71,6 +71,9 @@ Q) Connect Android Device to PC via wireless, using adb & TCP :
   ----
 
 
+* Vysor : For Screen mirroring of real android iOS devices
+
+
 
 ------------
 

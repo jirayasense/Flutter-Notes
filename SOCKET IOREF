@@ -12,3 +12,6 @@ Issues :  (Re-Connect)
 https://github.com/rikulo/socket.io-client-dart/issues/171
 
 Server & Client Socket IO version Invariance
+
+https://stackoverflow.com/questions/66506792/flutter-socket-io-with-nodejs-receiving-timeout-on-connection
+https://github.com/rikulo/socket.io-client-dart/issues/63

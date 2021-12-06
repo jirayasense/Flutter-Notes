@@ -104,6 +104,7 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
 
 * Navigator 2.0 :
   -------------
+   -> Declarative Navigation
    - Exposing Page Stack 
    - backward compatible
    - Handling OS events (android back button)

@@ -1,7 +1,7 @@
 Responsive designs classess & widgets :
 
  1) MediaQuery
- 2) LayoutBuilder       | FractionallySizedBox
+ 2) LayoutBuilder    | FractionallySizedBox  
  3) OrientationBuilder
  4) CustomMultiChildLayout
  5) CustomSingleChildLayout
