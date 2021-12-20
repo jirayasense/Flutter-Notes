@@ -16,4 +16,33 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
    which is how they persist across these transitions
 
 
+* MonoSpaced Fonts :
+  -------
+   -> Eg Timer impl - text size changes as width changes for diff texts
+       \
+        -> Use MonoSpaced Fonts or Custom Widgets
+
+
+* ProviderScope & ScopedProvider ;
+  --------\ 
+    ProviderScope => allows the RiverPod to works;
+    
+    -> If you want to make your widget as Constant then you can use 
+       ProviderScope() to dynamically provide necessary argument down the tree from 
+         that level
+
+
+* Mounted & setState :-
+  ----------------
+   override the setState() to check if widget is mounted on the screen 
+   (PREVENTS MEMORY LEAKS)
+
+   @override
+   void setState(VoidcallBack fn){
+     if (mounted){
+       super.setState(fn);
+     }
+   }
+
+
 

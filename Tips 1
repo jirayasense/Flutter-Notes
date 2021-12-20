@@ -155,3 +155,6 @@ Q. When does dispose() method gets called ?
 
 * To get scroll direction :-- controller.position.userScrollDirection
      get pixel by moved  :--- controller.position.pixels
+
+
+* To hide the keyboard you can use FocusScope class

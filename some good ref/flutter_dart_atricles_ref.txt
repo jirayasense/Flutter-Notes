@@ -1,1 +1,4 @@
 [mixins] -> https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3
+
+[Native animated splash screen]
+  https://medium.com/@turkergurel19/native-animated-splash-screen-with-lottie-in-flutter-21761532813b

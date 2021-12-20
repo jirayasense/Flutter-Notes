@@ -1,8 +1,6 @@
 => Remember : 
       We need keys like ValueKey or ObjectKey
 
-
-
 * GlobalKey :
   --------
    -> You can use global key to access the state of a stateful widget
@@ -37,7 +35,7 @@
 * Object Key :
   -----
    => identify widget based on the reference of object
-   -> useful whenyou have large amount of data & 
+   -> useful when you have large amount of data & 
       
       adding or removing widget to a List
       reorder widget in a list 

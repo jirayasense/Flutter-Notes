@@ -37,3 +37,8 @@ https://stackoverflow.com/questions/57466767/how-to-make-a-gesturedetector-captu
   ------
 
   statCounter GlobalStats  //Keyword
+
+
+* to position widget by percent in Stack :
+  -----
+   https://stackoverflow.com/questions/46637197/position-widget-in-stack-with-percent

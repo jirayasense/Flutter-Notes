@@ -110,3 +110,17 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
    - Handling OS events (android back button)
    - mannage nested navigators 
    - manage navigation state
+
+
+* Shared Preferences :
+  ----------
+   Key Val Storage options
+
+   Be aware that shared_preferences is not a good fit to store sensitive data.
+   To store passwords or access tokens,
+   check out the Android Keystore for Android and
+   Keychain Services for iOS, or consider using the flutter_secure_storage plugin.
+
+
+* TIPS :-
+   Hide the keyboard by using the FocusScope class. 

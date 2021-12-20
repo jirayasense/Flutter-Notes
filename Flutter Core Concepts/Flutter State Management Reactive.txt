@@ -11,6 +11,8 @@ TIPS :-
 => If particular fields is shared between diff unions of frezzed then you can use it as normal one without 
    any specific casting required
 
+=> ScopedReader
+
 
 -----------
 

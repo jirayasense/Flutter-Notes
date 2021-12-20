@@ -1,1 +1,6 @@
 * To generate id -> randomly -> used Uuuid()
+
+* If you ever need to change appearance of Status Bar - you can use base on screen-by-screen basis
+* Use AnnotatedRegion to customise the system UI overlay on a screen-by-screen basis
+
+* Single Responsibility Principle : seperate UI code & Ticker Logic
