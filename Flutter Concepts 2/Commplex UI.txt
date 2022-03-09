@@ -1,0 +1,17 @@
+* UI Triangle :
+----
+- 3 imp classes
+  1. Stack   - Positioned 
+  2. Transform
+  3. AnimationController
+
+* Tips :
+  - Start Identifying Static Elements/Positions
+
+* Transform :
+  ---
+   - Matrix -> identity
+   - translate
+   - setEntry
+   - scale
+   - rotate

@@ -1,0 +1,2 @@
+* Flutter add packages :   
+     - flutter pub add pkgname

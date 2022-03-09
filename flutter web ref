@@ -42,3 +42,12 @@ https://stackoverflow.com/questions/57466767/how-to-make-a-gesturedetector-captu
 * to position widget by percent in Stack :
   -----
    https://stackoverflow.com/questions/46637197/position-widget-in-stack-with-percent
+
+
+* float an overlay widget 
+  ----
+   https://medium.com/flutter/how-to-float-an-overlay-widget-over-a-possibly-transformed-ui-widget-1d15ca7667b6
+
+* Wrap Content & Match parent 
+  ---
+   https://stackoverflow.com/questions/42257668/the-equivalent-of-wrap-content-and-match-parent-in-flutters

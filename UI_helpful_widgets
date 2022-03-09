@@ -37,3 +37,6 @@ ExpansionTile(), PageStorage()
 TabPageSelector()
 
 AnnotatedRegion
+
+ShaderMask()
+

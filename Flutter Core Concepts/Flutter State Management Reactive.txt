@@ -1,3 +1,5 @@
+[RiverPod] https://codewithandrea.com/articles/flutter-state-management-riverpod/
+
 ----------
 
 TIPS :- 
@@ -82,12 +84,16 @@ TIPS :-
    
    -> ChangeNotifier   (Mutable State)
       StateProvider 
-      StateNotifier
+      StateNotifier    (Immutable State MGMT)
 
   Immutable plus -> allows you to create history of states easily.
 
   Provider allows us to avoid unncessary rebuild in application via 
-   using RiverPod + const constr Widget
+   using RiverPod + const constructor Widget
+
+* ProviderScope :
+  ----
+   -? is a widget that stores the state of all the providers we create.
 
 
   consume :
@@ -168,3 +174,7 @@ TIPS :-
 
      
    
+------
+
+=> Riverpod lets us access providers by reference, not by type. 
+  This means that we can have as many providers as we want of the same type.

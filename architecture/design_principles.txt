@@ -3,6 +3,8 @@ List
  - SOLID
  - YAGNI
  - VIPER 
+ - MVC | MVVM | MVI | MVU
+ - VIP
 
  --------
 

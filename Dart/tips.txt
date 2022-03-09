@@ -1,0 +1,4 @@
+* Immutable Abstract Class :
+  ---
+   -> If you have an immmutable abstract class, then add a constant empty constructor to it.
+      So your subclasses can also be immutable with const constructor

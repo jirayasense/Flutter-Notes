@@ -1,0 +1,5 @@
+* Chat UI (Text) :
+  -----
+   GroupedListView (package :- grouped_list)
+   Align 
+   MessageBubble (Custom Widget)

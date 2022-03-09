@@ -1,0 +1,8 @@
+* Side Effects In Flutter :
+  -----
+  Mutating state or calling async code inside the build method can cause unwanted widget rebuilds 
+  and unintended behaviour
+
+
+* Flutter Hooks :
+  ---------

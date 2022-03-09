@@ -38,9 +38,6 @@ Programming Dart Tips :-
 
    => use `either.fold()`
 
-
-
-
 => yield* XYZ
      --- 
       So whenever XYZ yield something, that yielded value will automatically get yielded by
@@ -98,13 +95,12 @@ _________________________
 
 * Domain Layer :
   ---
-   -> Domain Layer should not care any specific tyoe for Utilities 
+   -> Domain Layer should not care any specific type for Utilities 
 
 
 * Utils :
   ---
    Models -> shield the Domain Layers from different Utilities 
-
 
    ---
    TIP : Remote Data Source -

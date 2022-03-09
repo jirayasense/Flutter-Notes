@@ -64,7 +64,10 @@ https://www.adrienpadol.com/2019/09/flutter-navigation-routes-and-custom.html
 * implements vs extends vs with 
   https://stacksecrets.com/flutter/implements-v-s-extends-v-s-with-keywords-in-dart
 
-  
+
+* Providers   
+  https://medium.com/flutter-community/understanding-provider-in-diagrams-part-2-basic-providers-1a80fb74d4e7
+    
 -----------------
 
 Design Principles :

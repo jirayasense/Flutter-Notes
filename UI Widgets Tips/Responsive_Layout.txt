@@ -1,0 +1,32 @@
+ref :- 
+(Youtube Mitch Koko) -> https://github.com/mitchkoko/responsivedesign
+
+-----------
+
+
+* Responsive Layout in Flutter :
+  --------------
+   2 ways 
+   1) Mediaquery
+   2) LayoutBuilder
+
+
+* Mediaquery :
+  -----
+   - Here we manually need to store variable & write logics
+
+   - orientations 
+       - potrait or landscape
+
+   - isMobile or Tablet
+       - size.shortSide < 600 
+
+* OrientationBuilder :
+  ------
+   -> Widget that can be used in place of Mediaquery
+
+* LayoutBuilder :
+  ----
+   - Here under the hood its using Mediaquery (I guess)
+   - It provides us with Widget So that we can use it in Widget Tree directly
+   - It provide Consntraints as well

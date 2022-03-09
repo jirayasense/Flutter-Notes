@@ -40,3 +40,10 @@
       child: Drawer()
    )
 
+* To Make Widget Responsive to Surrounding Box (ie Shrink or Expand)
+  -----
+   -> you can use FittedBox 
+      or 
+      You can make your widget responsive itself via MediaQuery or BoxConstraints
+      or 
+      More Advance You can use LayoutBuilder

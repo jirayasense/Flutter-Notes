@@ -62,3 +62,6 @@ _____________
   ----------
    Sometimes we need to create size of widget explicitly
    - we can use LayoutBuilder() or Mediaquery() at that time
+     or 
+     We can provide static size to widget & use FittedBox to Expand or Shrink in its Surrounding
+ 

@@ -1,0 +1,35 @@
+* Widget :
+  ----
+   - Blueprint or Recipie about What UI should look like 
+
+* Element :
+  ----
+   - Holds info abt where widget stays in relative to other widgets in Widget Tree
+   - It just implements BuildContext 
+    
+   - Context :- Some Meta-Information
+   
+
+* RenderObject :
+  -----
+   -> Beyond the Widgets Layer there is Rennder Layer 
+   -> So Widget Tree uses Render Tree underhood via Element Tree
+
+   - RenderObjects :- deal with layout | Painting | Hit Testing | Accessibility
+        \
+         -> Everything you see on Screen is RenderObject 
+            Everything You code is Widgets
+
+        Eg RenderBox :- 
+             - 2d Coordinates Render Objects
+             - Most flutter objects are RenderBox 
+
+   -> RenderObjects can sync from frame to frame 
+   -> RenderObject can be Re-Used which helps to improve Performances
+
+   - If widget is removed from tree, then corresponding element is detached & so as corresp RenderObject
+
+   [Keys - Significance]
+    -> Flutter uses Keys to recognize if any obj move to new location so that it can utilize the same obj 
+
+   -> If you wannt to move widget to completetly diff part of Entire Tree - then you need {Global Key}

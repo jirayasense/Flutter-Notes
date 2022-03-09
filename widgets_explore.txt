@@ -132,6 +132,12 @@ timezone
 flutter_native_timezone
 morphable_shape
 
+// for Shadow Effect
+simple_shadow: ^0.3.0
+decorated_icon: ^1.2.1
+
+glass_kit
+
 trotter  ->  permutations/combination
 supercharged -> kotlin like functions 
 chitose      -> list perm.comb 

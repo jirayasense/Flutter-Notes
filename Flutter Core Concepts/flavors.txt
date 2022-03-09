@@ -1,3 +1,0 @@
-* InheritedWidget
-* ScopedModel     // helps to provide diff object based on diff levels/Scope in Tree
-

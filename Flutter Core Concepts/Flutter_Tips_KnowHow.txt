@@ -18,3 +18,22 @@
 => Most Flutter apps start with WidgetsApp as the root widget.
 
 
+
+--------
+
+[State Management]
+
+* FutureBuilder + HooksBuilder + ValueNotifier :
+  -----------
+   -> When you want to make or rebuild Your FutureBuilder widget in ahead of time for some other Future 
+      You can use 
+      ValueNotifier & ValueListenable that will hold val of type -> Future 
+       &
+       whenever we need inn future to update val just change underlying val of ValueNotifier 
+       &
+       use ValueListenable near to FutureBuilder Widget to rebuild only needed portion in UI
+
+
+* Observe User Navigation :
+  ----------
+   -> RouteObserver  

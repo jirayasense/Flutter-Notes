@@ -2,9 +2,18 @@ ref : https://www.raywenderlich.com/4562634-flutter-navigation-getting-started
 
 
 Packages for Navigator 1.0
------------
+----------
     auto_route
     sailor
+
+=> Navigator 1.0 is a imperative style for managing navigation
+
+
+WidgetsApp :
+------
+- MaterialApp extends WidgetsApp
+- WidgetsApp wraps many other common widgets that your app requires. 
+- Among these wrapped widgets are a top-level Navigator to manage the pages you push and pop.
 
 
 Navigator 2.0 
@@ -18,8 +27,6 @@ Navigator 2.0
  -> Setting the router’s Back button dispatcher lets you listen to platform system events.
 
  ->  you can easily manage your navigation flow in a single router object!  
-
- 
 
 
   Route information parser’s job is to convert the app state to and from a URL string.
@@ -38,7 +45,7 @@ Navigator 2.0
 
    1) Inntent -> Url string -> Navigation State -> AppState
 
-   2) Appstate -> Navigationn state -> Url String -> Intent
+   2) Appstate -> Navigation state -> Url String -> Intent
 
    When the user enters a new URL on the web or triggers a deep link on mobile, 
    RouteInformationProvider notifies RouteInformationParser that there’s a new route

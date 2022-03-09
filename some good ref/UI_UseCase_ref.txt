@@ -1,0 +1,8 @@
+1) [Get Positionn of Widget] - RenderBox 
+   https://www.woolha.com/tutorials/flutter-get-widget-size-and-position
+
+2) [Circular Progress Indicator]
+   https://stackoverflow.com/questions/67336319/create-custom-circular-progress-indicator-in-flutter-with-custom-stroke-cap
+
+3) [flutter widget size]
+   https://flutterbeads.com/flutter-widget-size-in-percentage/

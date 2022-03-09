@@ -4,3 +4,8 @@
 * Use AnnotatedRegion to customise the system UI overlay on a screen-by-screen basis
 
 * Single Responsibility Principle : seperate UI code & Ticker Logic
+
+
+* Fractional Translate Flutter & Positioned
+
+* SinngleChildScrollView + LayoutBuilder + IntrinsicHeight + Column/Row

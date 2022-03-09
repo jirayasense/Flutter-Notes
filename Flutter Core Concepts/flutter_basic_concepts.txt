@@ -1,5 +1,30 @@
 Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---decoding-and-encoding-json-utf-8-and-more
 
+Slivers : https://www.raywenderlich.com/19539821-slivers-in-flutter-getting-started
+
+* LifeCycles & State :
+  -----------
+  createState
+  initState
+  didChangeDependencies  -> When properties passed of any inherited obj (ie dependencies) used inside State changes 
+  didUpdateWidget  -> When values of param pass via Constructor changes by Parent
+  build()  -> never do computationally heavy thinngs inside build
+  dispose()
+
+  setState()
+
+* App LifeCycles :
+  -----
+   WidgetsBindingObservers
+      - helps to track Routes as well 
+      - Helps while app minimizes (ie move betweeb Foreground & background States)
+
+
+TIP :- mounted
+    Asynchronous code should always check if the mounted property is true before calling setstate(),
+    because the widget may no longer be part of the widget tree.
+
+
 * InheritedWidget :  (Scoped Access)
   -----------
    -> Immutable
@@ -13,6 +38,8 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
    2)  notify 
        bool updateShouldNotify() 
 
+   => Provider is just Wrapper around an InheritedWidget
+
 
 * Json in Dart :
   ---------
@@ -23,8 +50,16 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
 
 * Sliver :
   -----
-   -> Portion of Scrollable Area | Custom Scrolling Effect
+   -> Sliver is kinda interface for Scrollable Widgets
+   -> Portion of Scrollable Area | Custom Scrolling Effect  
+   -> Slice of region that can be manipulated for custom scrolling way
+   -> Main Benefits :- LaZily Load the items in scrollable area
 
+
+   -> Slivers + CustomScrollView are good combo
+
+  RenderBox :
+  ---------
    Normal Widgets renders in a Box i.e RenderBox (i.e BoxConstraints)
     \
      Renderer uses those constraints & produce size for rendering widget
@@ -33,7 +68,7 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
   --------
    -> Sliver Constraints -> Renderer -> Sliver Geometry
       
-      ListView already uses  Sliver under the hood.
+   => ListView already uses Sliver under the hood.
 
   3 Types of Sliver :
    -------
@@ -54,9 +89,8 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
         1. Render Class : performs rendering & layout
         2. Widget Class : Makes use of Render class to Widget tree
 
-      => Paint Coordinates is relative to the Sliver's Local coordinates, not the scroll view 
-      => Scroll Offset is the amount of logical pixels the current sliver box is scrolled out of view
-
+      => `Paint Cordinates` is relative to the Sliver's Local coordinates, not the scroll view 
+      => `Scroll Offset` is the amount of logical pixels the current sliver box is scrolled out of view
 
     Paint Position is seperate from the Constraints Position :
       -> This means that we can paint widget at differently that actual located in the list
@@ -66,7 +100,9 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
 
 * You can provide Your Object In different part differently using :
   
-   ScopedProvider(), ProviderScope()
+   ScopedProvider(), ProviderScope() 
+                         \
+                          -> remembers all the providers added via RiverPod
 
    use override param avail in ProviderScope to change behaviour in diff part of apps.
 
@@ -83,6 +119,8 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
 
 * Navigator 1.0 :
   ------------
+
+  -> Immperative style of Navigation management
 
   -> WidgetsApp :  
 
@@ -102,6 +140,15 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
      - on Android devices, the Back button might not work with Navigator 1.0 
        when you have nested navigators or when you add Flutter to your host Android app.
 
+  => To remove Specific route :- you can also use 
+         \
+          removeRoute()
+
+  Key Pitfalls :-
+    1. Nested Navigations 
+    2. Route Tracking 
+    3. Manipulate Inbetween Routes
+ 
 * Navigator 2.0 :
   -------------
    -> Declarative Navigation
@@ -119,8 +166,39 @@ Json in Dart : https://dart.dev/guides/libraries/library-tour#dartconvert---deco
    Be aware that shared_preferences is not a good fit to store sensitive data.
    To store passwords or access tokens,
    check out the Android Keystore for Android and
-   Keychain Services for iOS, or consider using the flutter_secure_storage plugin.
+   Keychain Services for iOS, or consider using the `flutter_secure_storage` plugin.
+
+   Flutter_Secure_Storage
 
 
 * TIPS :-
-   Hide the keyboard by using the FocusScope class. 
+   Hide the keyboard by using the `FocusScope` class. 
+
+
+* Flutter Hooks :
+  ---------
+   -> reduce & increase Code Reusability
+   -> use hooks inside build() method only !
+   -> UseEffect() hook is like decorator concept (ie takes function & return function)
+   
+   **
+   => Hooks instead of sharing state with widget, each one run in an isolation !
+
+   -> Its not intended for State management but for Code Sharing & Code Reusability.
+
+   - useState, useEffect, useValueNotifier, useValueListenable 
+     useMemoized
+
+  -> HookBuilder :- allow you to use & listen to the Hooks 
+
+
+[IMP]
+* WidgetsBindingObserver :
+  -----
+   -> very handy f0r listening to changes to :
+     - routing events 
+     - device orientations
+     - platform settings (text scale factor, brightness, locale, etc)
+     - background, foreground tracing
+
+     

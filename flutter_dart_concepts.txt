@@ -27,3 +27,8 @@
 * factories redirection :
   ----------
    use = with factory constructor for redirection
+
+
+* Constructor Tear-Offs :
+  --------
+   -> You can pass Constructor/factories as reference to arguments where lambdas or function is accepted

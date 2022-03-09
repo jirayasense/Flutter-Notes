@@ -1,0 +1,4 @@
+* Streams :
+  ----
+   -> A subscription to a stream will stay active until the entire memory is destroyed, 
+      usually the entire lifecycle of your app. 

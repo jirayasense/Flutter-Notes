@@ -1,0 +1,6 @@
+ref : https://codewithandrea.com/videos/reduce-animation-controller-boilerplate-flutter-hooks/
+
+* Hooks :
+  ----
+   Alternative to Hooks :-
+     -> create your own abstract State class for Hook You want to create 

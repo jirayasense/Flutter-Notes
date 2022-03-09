@@ -17,3 +17,7 @@ https://walkingtree.tech/why-flutter-is-the-next-big-thing-in-app-development/
 
 
 -> Flutter :- What instead of How !!
+
+
+* Flutter Custom Painter 
+  https://blog.codemagic.io/flutter-custom-painter/

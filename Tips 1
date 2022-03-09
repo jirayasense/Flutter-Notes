@@ -30,6 +30,9 @@ flutter packages get build run --delete -conflicting outputs
 
    https://stackoverflow.com/questions/41479255/life-cycle-in-flutter
 
+   didUpdateWidget -> cames handy with key param applied to Widget 
+                      (If key remains same for child widget then instead of initState, didUpdateWidget is called)
+
 
 iOS crash was due to permission not registered in 'info.plist'`
 
