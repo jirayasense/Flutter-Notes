@@ -6,3 +6,38 @@
 
 * Flutter Hooks :
   ---------
+   useState() works in Flutter Hooks
+     \
+      It creates/simulates the ValueNotifier & rebuilds the HookWidget whenever its value changes
+
+
+* Adaptive vs Responsive :
+  -----------
+   2 ideas of Adaptive & Responsive
+   - How much space do I have on the Screen ??
+   - What is the platform Capabilities ??
+
+   Adaptive :- 
+     - an app is capable to change functionalities based on the platform's capabilities.
+     - Functionality Perspective
+
+     Eg 
+        Geolocation Service (Sensor) for Mobile Devices
+            \
+             Diff OS (Android & IOS) has diff way specific to Platform underneath
+
+   Responsive :-
+     - Changing how something looks based on the screen available
+     - Visibility Perspective
+
+   Widgets :-
+    1) MediaQuery    (Entire Screen)
+    2) LayoutBuilder
+
+   -> Theme.of(context).platform   // to get underneath platform details
+        \
+         -> For thing's visible to app user's (ie Responsiveness)
+
+   -> dart:io.platform  // (Adaptiveness)
+        \
+         -> For Functionality Differences

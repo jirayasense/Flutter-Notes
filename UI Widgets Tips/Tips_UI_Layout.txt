@@ -3,3 +3,17 @@
    GroupedListView (package :- grouped_list)
    Align 
    MessageBubble (Custom Widget)
+
+
+* Bezier Curve :
+  -----
+   - ClipPath()
+       \
+        path.quadraticBezierTo
+
+     Tips :
+       1. Create Custom Class that extends CustomClipper Class
+       2. Take Help of online ShapeMaker (to create shape custom you want)
+           \
+            then get the code & paste it inside your custom class (ie Code will comprised of path & related manipulations)
+            
