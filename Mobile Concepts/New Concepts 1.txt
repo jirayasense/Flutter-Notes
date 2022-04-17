@@ -1,3 +1,9 @@
 * Feature Flags 
   ----
    - an alternative to remote configs
+
+
+* Firebase alternative : (AppWrite)
+  -----
+   - 
+  

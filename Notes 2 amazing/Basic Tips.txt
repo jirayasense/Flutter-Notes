@@ -14,3 +14,10 @@
 * runApp vs main() ??
   -> main is the entry point 
   -> runApp() is the where MaterialApp is returned (ie Widget Tree root Element is instantiated)
+
+
+* GLobal Variables | Eager vs Lazy | RiverPod :
+  ------
+   -> Global variables are always lazy-loaded. This is a specificity of how Dart behaves.
+
+

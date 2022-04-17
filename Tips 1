@@ -160,4 +160,4 @@ Q. When does dispose() method gets called ?
      get pixel by moved  :--- controller.position.pixels
 
 
-* To hide the keyboard you can use FocusScope class
+* To hide the keyboard you can use `FocusScope` class

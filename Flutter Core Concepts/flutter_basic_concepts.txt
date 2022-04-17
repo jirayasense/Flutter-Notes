@@ -195,7 +195,8 @@ TIP :- mounted
 [IMP]
 * WidgetsBindingObserver :
   -----
-   -> very handy f0r listening to changes to :
+   -> App LifeCycle management
+   -> very handy for listening to changes to :
      - routing events 
      - device orientations
      - platform settings (text scale factor, brightness, locale, etc)

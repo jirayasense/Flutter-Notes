@@ -40,3 +40,13 @@ AnnotatedRegion
 
 ShaderMask()
 
+HookBuilder(), FutureBuilder(), StreamBuilder()
+
+NestedScrollView, FlexibleSpaceBar()
+
+TabBarView(), DefaultTabController()
+
+
+---------
+
+RepaintBoundary(), RepaintBoundary()   // helps to get rid of unnecessary re-paint of neighbors // layers

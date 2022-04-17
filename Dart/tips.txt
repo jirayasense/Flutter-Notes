@@ -4,7 +4,30 @@
       So your subclasses can also be immutable with const constructor
 
 
-* Strinng Data inn Dart :
+* String Data inn Dart :
   ----
    -> Uint8List.fromList(codeUnits)
+
+* Function Pointer in Flutter :
+  -----
+   -> typedef
+
+   -> allow you to reuse your code by passing pointer to function to another function 
+     (ie First class Citizens | High Order Functions)
       
+
+
+----------
+(Advanced Flutter Tips)
+
+* LazyStream :
+  ---
+   -> use #LazyStream if the code that leads upto creation of your #Stream is doing heavy computation.
+      This will ensure that creation of your Stream 
+      won't take up Computation time if the Stream isn't `listened to`
+
+
+2) consolidateHttpClientResponseBytes :
+   ------
+    -> It allows you to effectively grab the Uint8List data out of the URL by sending a Get request to it.
+       You dont have to transform data anymore

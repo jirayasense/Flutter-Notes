@@ -10,6 +10,8 @@
      \
       It creates/simulates the ValueNotifier & rebuilds the HookWidget whenever its value changes
 
+   useEffect() :- helps to simulate the init() & dispose() of Stateful's State lifecycle methods 
+
 
 * Adaptive vs Responsive :
   -----------
@@ -41,3 +43,16 @@
    -> dart:io.platform  // (Adaptiveness)
         \
          -> For Functionality Differences
+
+* FutureBuilder Tisps (Right Way)
+  -----------------
+   - Never call the method returning Future directly in FutureBuilder future argument
+     |
+     becaause that way it may invoke mutliple times Future Request when State Rebuild (ie FutureBuilder rebuilds)
+
+   - instead pass the instance (ie Variable ) holding thee Future data to the future arg of FutureBuilder
+     \
+      this way every setState will not call the Future Task again
+
+   NOTE :
+     FutureBuilder does keeep track of Prev Future State (if call Future Task again)

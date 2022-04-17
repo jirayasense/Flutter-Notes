@@ -6,3 +6,20 @@
 * ClipPath()  // Custom Shaped Widget
 
 * AnnotatedRegion //
+
+* Listener() vs GestureDetector() :
+  -------
+   - For a button that has no selected state :- we use Listener instead of GestureDetector
+
+
+* StatefulBuilder :
+  -----
+   -> Perform InExpensive Task w.o creating new StatefulWidget
+
+
+* To check if curr theme is dark or light ?? -> Theme.of(context).brightness == Brightness.dark
+
+* To change the background color of Bottom Nav Bar :- Wrap Bottom Navbar with Theme Widget
+
+[REMEMBER]
+=> Animation can cause theirs Neighbors to ReDraw

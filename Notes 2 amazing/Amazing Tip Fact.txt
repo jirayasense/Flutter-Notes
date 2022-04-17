@@ -49,5 +49,25 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
    Think of slivers as an interface for scrollable widgets
    
 
+* MaterialState Properties :
+  -------------------
+   (ref :- Youtube | Flutter | -> [ MaterialStateProperties |  Decoding Flutter ] )
 
+   => New API for passing val to some of Material Props & disambiguate the several material props at same time 
 
+   => More param to Widget - just to define its individual property|state 
+   - but this become more cluttery as params grows 
+   - Idea :- instead of adding more param, remove it
+
+  MaterialState :
+  _______
+   - set of several states that Material lib recommends (is such as hover, focus, disabled,...)
+  
+  MaterialStateProperty :
+  -----
+  -> Intorduce to make easier & disambiguate the lots of Material Property when came at same time to play
+  => MaterialStateProperty<T> of a type T do not sub class of that type T
+
+  Eg -> Compatible :
+        
+        - MaterialStateColor   // Fancy Resolver

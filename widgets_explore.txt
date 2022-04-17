@@ -51,6 +51,8 @@
 
 * ColorFiltered()
 
+* RepaintBoundary()
+
 
 ----- Packages
 

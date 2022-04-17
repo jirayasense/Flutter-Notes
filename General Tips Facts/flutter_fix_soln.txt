@@ -1,0 +1,5 @@
+* Unable to send API calls (POST):- API calls are disabled for Non-Browser Application :
+   \
+    -> To Fix this just go to headers & 
+       add this :-
+         'origin': 'http://localhost'    // pretending ourselves as web-Browser

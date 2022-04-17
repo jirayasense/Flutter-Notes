@@ -91,3 +91,8 @@ _______________________
   they take an Animation argument
   they can animate forward, in reverse, or repeat forever
   can't find an explicit animation widget for what you need? Use AnimatedBuilder.
+
+
+---------
+
+=> Animation can cause theirs Neighbors to ReDraw

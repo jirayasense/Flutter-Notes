@@ -4,3 +4,22 @@
 
 - liquid_swipe 
   animated_smooth_indicator
+
+  swipe_deck  // swipeable deck of cards like effect  
+
+- cascading_menu   // Horizontal & Vertical SubMenus 
+- glitcheffect     // Text Annimmation Glitch Effect
+
+- shaky_animated_listview  //
+- card_stack_widget
+- bulletin    // animated flash cards
+- select_card   // animated card selection
+
+- analog clock picker
+
+
+- pod_player  // vimeo + youtube
+
+-------
+
+- flutter_overlay_apps  // to display widgets over diff apps

@@ -1,1 +1,9 @@
 * Glass Like Effect - package :- `glass_kit`
+
+* platform aware widgets :- `flutter_platform_widgets`
+
+* Youtube Player :- `youtube_player_flutter`
+
+* Sticky Headers :- `sticky_headers`
+
+* Inset Box SHadows :- flutter_inset_box_shadow
