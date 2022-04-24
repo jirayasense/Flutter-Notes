@@ -1,5 +1,7 @@
 - grouped_list  // (for Grouped listView)
 
+- Swayze  // to Display Large Tables 
+
 - once  // (kinda WorkManager)
 
 - liquid_swipe 
@@ -19,6 +21,8 @@
 
 
 - pod_player  // vimeo + youtube
+
+- path_animator // animate the drawn path on Canvas
 
 -------
 

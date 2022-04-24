@@ -71,3 +71,12 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
   Eg -> Compatible :
         
         - MaterialStateColor   // Fancy Resolver
+
+
+
+* GestureDetector & Where it Taps :
+  -----
+  - To know where it ebing tapped (ie more tap details)
+    You cann use param of GestureDetector :- `onTapDown`
+
+     dx & dy

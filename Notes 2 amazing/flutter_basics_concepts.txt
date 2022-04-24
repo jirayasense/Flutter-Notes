@@ -1,2 +1,10 @@
 * Widgets :
   ------
+
+
+* GestureDetector & Where it Taps :
+  -----
+  - To know where it ebing tapped (ie more tap details)
+    You cann use param of GestureDetector :- `onTapDown`
+
+     dx & dy
