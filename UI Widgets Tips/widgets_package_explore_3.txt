@@ -24,6 +24,8 @@
 
 - path_animator // animate the drawn path on Canvas
 
+- confetti  // (celebrate drop Animations)
+
 -------
 
 - flutter_overlay_apps  // to display widgets over diff apps

@@ -80,3 +80,19 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
     You cann use param of GestureDetector :- `onTapDown`
 
      dx & dy
+
+
+[***]
+* Navigator & Context | Dialog :
+  ------
+   - sometimes when you do showDialog(), & if you try to close that dialog programatically
+     then often you refer this way :-
+      Navigator.of(context).pop()   // to pop off currently opened dialog 
+        |
+        but sometimes this may not work 
+    
+    Alternative Approach :
+     - Have a navigator Key to parent Widget 
+     - Then via that navigator key you can achieve it this way :-
+         \
+          -> naviggatorKey.currentState!.popUntil((r) => r.isFirst)

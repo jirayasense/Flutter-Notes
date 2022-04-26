@@ -23,3 +23,11 @@
 
 [REMEMBER]
 => Animation can cause theirs Neighbors to ReDraw
+
+
+* TapGestureRecognizer | TextSpan :
+  ---------
+   - If you want to recognize the tap event to some sub-text (let say in Rich Text Widget)
+     then you can use 'recognizer' param of 'TextSpan' Widget 
+
+     recognizer := TapGestureRecognizer()   // handle the tap event
